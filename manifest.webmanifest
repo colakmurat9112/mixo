@@ -1,0 +1,24 @@
+{
+  "name": "Ultimate Modern Mixology Handbook",
+  "short_name": "Mixology",
+  "description": "Başlangıçtan moleküler miksolojiye: infüzyonlar, şuruplar, cordial, bitter, fat-wash, berraklaştırma ve hesaplayıcılar.",
+  "lang": "tr",
+  "id": "./",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#100e0d",
+  "theme_color": "#100e0d",
+  "categories": ["education", "food", "reference"],
+  "icons": [
+    { "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "icons/icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ],
+  "shortcuts": [
+    { "name": "Hesaplayıcılar", "url": "./#hesapla", "icons": [{ "src": "icons/icon-192.png", "sizes": "192x192" }] },
+    { "name": "Favori Reçeteler", "url": "./#favoriler", "icons": [{ "src": "icons/icon-192.png", "sizes": "192x192" }] },
+    { "name": "Quiz", "url": "./#quiz", "icons": [{ "src": "icons/icon-192.png", "sizes": "192x192" }] }
+  ]
+}
